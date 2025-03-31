@@ -104,14 +104,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 ---
 
 ## **🤝 Contributing**  
-Feel free to open an issue or submit a pull request if you want to improve the chatbot.  
-
----
-
-## **📧 Contact**  
-For any queries, reach out to **Solutyics** at:  
-📧 Email: hrsolutyics@gmail.com  
-🔗 LinkedIn: [Solutyics](https://www.linkedin.com/company/solutyics/)  
+Feel free to open an issue or submit a pull request if you want to improve the chatbot.    
 
 ---
 
