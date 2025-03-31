@@ -2,9 +2,9 @@ Here's a **README.md** file for your project:
 
 ---
 
-# **Solutyics AI Chatbot** 🤖  
+# **Company AI Chatbot** 🤖  
 
-Solutyics AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** designed to answer queries related to Solutyics. It leverages **FAISS for vector search**, **HuggingFace Embeddings**, and **Groq LLaMA3-70B-8192** for generating intelligent responses.  
+Company AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** designed to answer queries related to Solutyics. It leverages **FAISS for vector search**, **HuggingFace Embeddings**, and **Groq LLaMA3-70B-8192** for generating intelligent responses.  
 
 ## **📌 Features**  
 ✔️ **Web-based chatbot** (Flask application)  
@@ -69,7 +69,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 
 ## **🛠️ Project Structure**  
 ```
-📂 solutyics-chatbot
+📂 company-chatbot
  ├── app.py           # Flask-based web chatbot
  ├── chatbot.py       # Terminal-based chatbot
  ├── templates/
