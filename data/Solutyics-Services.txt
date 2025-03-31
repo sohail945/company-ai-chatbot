@@ -1,0 +1,46 @@
+Solutyics AI & Data Services
+We provide AI solutions for automation, analytics, and business growth.
+1. AI & Machine Learning
+ Predictive Modeling - Forecast trends.
+ Anomaly Detection - Detect fraud.
+ Recommender Systems - Personalized suggestions.
+2. Data Engineering
+ Data Pipelines - Automate data flow.
+ ETL - Extract, transform, load.
+ Data Warehousing - Store & manage data.
+3. Data Analytics
+ Business Intelligence - Reports & dashboards.
+ Big Data - Analyze large datasets.
+ Predictive Analytics - AI-driven insights.
+4. Deep Learning
+ Healthcare - Medical imaging, disease detection.
+ Manufacturing - Quality control, maintenance.
+ Finance - Fraud detection, credit scoring.
+ Retail - Recommendations, inventory.
+ Agriculture - Crop monitoring, yield prediction.
+5. Computer Vision
+ Image Recognition - Identify objects.
+ Object Tracking - Monitor movement.
+ Facial Recognition - Verify identity.
+6. Natural Language Processing (NLP)
+ Sentiment Analysis - Understand feedback.
+ Chatbots - Automate conversations.
+ Speech-to-Text - Convert voice to text.
+7. MLOps
+ AI Deployment - Cloud & on-premise.
+ Model Monitoring - Track performance.
+8. Generative AI
+ AI-Powered Applications - Automate workflows.
+ Custom AI Models - Tailored solutions.
+
+
+
+9. AI Consultancy
+ AI Strategy - Business planning.
+ Use Cases - Identify AI opportunities.
+ AI Ethics - Responsible AI.
+10. AI Training
+ AI Courses - Beginner to advanced.
+ Custom Training - AI for businesses.
+?? Contact Solutyics for AI solutions!
+

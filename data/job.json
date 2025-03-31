@@ -1,0 +1,160 @@
+[
+  {
+    "job_id": "001",
+    "title": "Machine Learning Engineer",
+    "location": "Remote",
+    "employment_type": "Full-time",
+    "category": "AI & Machine Learning",
+    "tags": ["AI", "ML", "Python", "TensorFlow", "Remote"],
+    "description": "Develop and optimize AI models for real-world applications.",
+    "responsibilities": [
+      "Develop, train, and optimize ML models.",
+      "Analyze large datasets for insights.",
+      "Collaborate with data engineers on pipelines.",
+      "Deploy ML models in production environments."
+    ],
+    "requirements": [
+      "Bachelor’s or Master’s in CS, AI, or related field.",
+      "Proficiency in Python, TensorFlow, and PyTorch.",
+      "Experience with AWS, GCP, or Azure.",
+      "Strong understanding of data structures and algorithms."
+    ],
+    "salary_range": "80,000",
+    "posted_date": "2025-03-24"
+  },
+  {
+    "job_id": "002",
+    "title": "Full Stack Developer",
+    "location": "Hybrid - Lahore, Pakistan",
+    "employment_type": "Full-time",
+    "category": "Software Development",
+    "tags": ["JavaScript", "React", "Node.js", "MongoDB", "Hybrid"],
+    "description": "Build and maintain scalable web applications.",
+    "responsibilities": [
+      "Develop front-end and back-end applications.",
+      "Ensure responsiveness and scalability.",
+      "Optimize applications for performance.",
+      "Integrate APIs and third-party services."
+    ],
+    "requirements": [
+      "Bachelor’s in Computer Science or related field.",
+      "Proficiency in JavaScript, React, Node.js, and MongoDB.",
+      "Experience with RESTful APIs and microservices.",
+      "Understanding of DevOps and CI/CD pipelines."
+    ],
+    "salary_range": "120k-150k",
+    "posted_date": "2025-03-22"
+  },
+  {
+    "job_id": "003",
+    "title": "Data Scientist",
+    "location": "Remote",
+    "employment_type": "Full-time",
+    "category": "Data Science & Analytics",
+    "tags": ["Data Science", "Python", "SQL", "Machine Learning", "Remote"],
+    "description": "Analyze and interpret complex data to improve business decisions.",
+    "responsibilities": [
+      "Develop predictive models using statistical techniques.",
+      "Work with stakeholders to understand business challenges.",
+      "Create and manage data visualization dashboards.",
+      "Perform data cleaning and preprocessing."
+    ],
+    "requirements": [
+      "Master’s in Data Science, Statistics, or a related field.",
+      "Experience with Python, SQL, and machine learning libraries.",
+      "Strong knowledge of statistical analysis and A/B testing.",
+      "Ability to communicate data-driven insights to non-technical teams."
+    ],
+    "salary_range": "300k-350k",
+    "posted_date": "2025-03-20"
+  },
+  {
+    "job_id": "004",
+    "title": "Cloud Engineer",
+    "location": "Onsite - Karachi, Pakistan",
+    "employment_type": "Full-time",
+    "category": "Cloud & DevOps",
+    "tags": ["Cloud", "AWS", "GCP", "Azure", "Kubernetes", "Onsite"],
+    "description": "Manage and optimize cloud infrastructure for scalable applications.",
+    "responsibilities": [
+      "Design and deploy cloud infrastructure solutions.",
+      "Ensure security and compliance of cloud environments.",
+      "Optimize performance and cost of cloud services.",
+      "Troubleshoot cloud-related issues and incidents."
+    ],
+    "requirements": [
+      "Bachelor’s in Computer Science, IT, or related field.",
+      "Experience with AWS, GCP, or Azure.",
+      "Proficiency in scripting languages like Python or Bash.",
+      "Understanding of Kubernetes and containerization."
+    ],
+    "salary_range": "200k-260k",
+    "posted_date": "2025-03-15"
+  },
+  {
+    "job_id": "005",
+    "title": "AI Research Intern",
+    "location": "Remote",
+    "employment_type": "Internship",
+    "category": "AI & Machine Learning",
+    "tags": ["AI", "Machine Learning", "Research", "Python", "Internship"],
+    "description": "Assist in AI research projects and model development.",
+    "responsibilities": [
+      "Experiment with different ML and deep learning techniques.",
+      "Prepare research documentation and reports.",
+      "Work with senior engineers to improve AI models."
+    ],
+    "requirements": [
+      "Currently enrolled in a CS/AI-related degree program.",
+      "Basic understanding of ML concepts and algorithms.",
+      "Experience with Python and TensorFlow/PyTorch.",
+      "Strong analytical and problem-solving skills."
+    ],
+    "salary_range": "Unpaid ",
+    "posted_date": "2025-03-18"
+  },
+  {
+    "job_id": "006",
+    "title": "Software Engineering Intern",
+    "location": "Hybrid - Islamabad, Pakistan",
+    "employment_type": "Internship",
+    "category": "Software Development",
+    "tags": ["Software Development", "Java", "Python", "Internship"],
+    "description": "Gain hands-on experience in software development by working with our engineering team.",
+    "responsibilities": [
+      "Assist in developing web and mobile applications.",
+      "Work on debugging and optimizing existing code.",
+      "Collaborate with senior developers on real-world projects."
+    ],
+    "requirements": [
+      "Currently pursuing a Bachelor's in CS or Software Engineering.",
+      "Basic knowledge of Java, Python, or JavaScript.",
+      "Understanding of OOP and data structures.",
+      "Ability to work in a team and learn quickly."
+    ],
+    "salary_range": "30k",
+    "posted_date": "2025-03-12"
+  },
+  {
+    "job_id": "007",
+    "title": "Marketing Intern",
+    "location": "Onsite - Lahore, Pakistan",
+    "employment_type": "Internship",
+    "category": "Marketing & Communications",
+    "tags": ["Marketing", "Social Media", "Content Creation", "Internship"],
+    "description": "Support the marketing team in content creation, social media management, and digital campaigns.",
+    "responsibilities": [
+      "Assist in creating marketing content for social media and blogs.",
+      "Monitor and analyze digital marketing trends.",
+      "Engage with customers through social media platforms."
+    ],
+    "requirements": [
+      "Currently pursuing a Bachelor's in Marketing, Communications, or a related field.",
+      "Strong writing and communication skills.",
+      "Familiarity with social media platforms and digital marketing tools.",
+      "Creative mindset with attention to detail."
+    ],
+    "salary_range": "40k",
+    "posted_date": "2025-03-10"
+  }
+]

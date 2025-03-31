@@ -1,0 +1,23 @@
+﻿1. About Us
+· Description: Solutyics is an AI and data solutions provider that helps businesses leverage AI, Machine Learning, and Advanced Analytics to drive growth and efficiency.
+· Mission: Empower businesses with data-driven intelligence and AI-powered solutions for long-term success.
+· Vision: Become the leading provider of AI-driven business solutions, enabling digital transformation worldwide.
+2. Technologies Used
+· Programming Languages: Python, R, SQL
+· Frameworks & Libraries: TensorFlow, PyTorch, Scikit-Learn, Pandas
+· Cloud Platforms: AWS, GCP, Azure
+· Databases: MongoDB, PostgreSQL
+· Web Technologies: React.js, Next.js, Node.js, Django, Flask
+3. Expertise Levels
+· Advanced Data Analytics – 99%
+· Machine Learning – 95%
+· Data Engineering – 90%
+· Artificial Intelligence – 90%
+· Other Services – 45%
+4. Leadership Team
+• Director: Dr. Atif Hussain – Leads AI research and development strategies.
+• CEO: Rana Rizwan – Drives business growth and AI-powered digital transformation.
+5. Recent Blogs
+· Identifying AI Use Cases in Your Organization  – A guide to discovering AI’s potential in business processes.
+· Predictive Analytics Ethics in HR - – Discusses ethical concerns in AI-driven hiring and workforce analytics.
+

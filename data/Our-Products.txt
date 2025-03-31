@@ -1,0 +1,12 @@
+Our Products
+1.AI Chatbots
+Deliver instant, personalized, and round-the-clock customer support with our AI-driven chatbots. Automate routine interactions, reduce response times, and improve user experience effortlessly. (Keywords: virtual assistants, automated support, customer service AI, chatbot automation)
+2.Interactive Voice Response (IVR) Systems
+Enhance communication with an efficient IVR system that manages customer inquiries, schedules appointments, and streamlines service processes. Perfect for businesses looking to optimize operations and provide seamless caller experiences. (Keywords: voice automation, call center AI, IVR technology, automated customer support)
+3.RAG-Powered Knowledge Assistant
+Access, retrieve, and summarize business-critical documents effortlessly with our Retrieval-Augmented Generation (RAG) system. Simplify compliance, policy management, and document searches with AI-driven precision. (Keywords: AI document search, policy management, knowledge management, compliance automation)
+4.Enterprise Resource Planning (ERP) Solutions
+Optimize business operations with our AI-powered ERP solutions. From inventory management to financial planning, our ERP system enhances efficiency, automates workflows, and provides data-driven insights. (Keywords: business automation, financial planning, supply chain AI, workflow optimization, resource management)
+5.AI-Based CV Screening Tool
+Streamline the hiring process with our AI-driven CV screening tool. Identify top talent efficiently by analyzing resumes, evaluating skills, and shortlisting candidates based on job relevance. (Keywords: AI recruitment, resume screening, talent acquisition AI, HR automation, hiring software, AI hiring assistant)
+
