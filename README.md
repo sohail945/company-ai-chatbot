@@ -18,7 +18,7 @@ Solutyics AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot**
 
 ## **🚀 Company Chatbot**
 
-![Web Chatbot](D:\\solutyics.chatbot\\company-ai-chatbot\\response 1.jpeg)  
+![Web Chatbot](response 1.jpeg)  
 *Image showing the web-based chatbot interface.*
 
 ![Terminal Chatbot](D:\\solutyics.chatbot\\company-ai-chatbot\\response 2.jpeg)  
