@@ -2,7 +2,7 @@ Here's a **README.md** file for your project:
 
 ---
 
-# **Company AI Chatbot**  
+# Company AI Chatbot 
 
 Company AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** designed to answer queries related to Solutyics. It leverages **FAISS for vector search**, **HuggingFace Embeddings**, and **Groq LLaMA3-70B-8192** for generating intelligent responses.  
 
