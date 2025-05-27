@@ -16,7 +16,7 @@ Company AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** d
 ---
 
 
-## ** Company Chatbot**
+##  Company Chatbot
 
 ![Terminal Chatbot](response_1.jpeg) 
 *Image showing the web-based chatbot interface.*
