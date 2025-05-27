@@ -2,9 +2,9 @@ Here's a **README.md** file for your project:
 
 ---
 
-# **Solutyics AI Chatbot** 🤖  
+# **Company AI Chatbot** 🤖  
 
-Solutyics AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** designed to answer queries related to Solutyics. It leverages **FAISS for vector search**, **HuggingFace Embeddings**, and **Groq LLaMA3-70B-8192** for generating intelligent responses.  
+Company AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** designed to answer queries related to Solutyics. It leverages **FAISS for vector search**, **HuggingFace Embeddings**, and **Groq LLaMA3-70B-8192** for generating intelligent responses.  
 
 ## **📌 Features**  
 ✔️ **Web-based chatbot** (Flask application)  
@@ -18,10 +18,10 @@ Solutyics AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot**
 
 ## **🚀 Company Chatbot**
 
-![Web Chatbot](D:\\solutyics.chatbot\\company-ai-chatbot\\response 1.jpeg)  
+![Terminal Chatbot](response_1.jpeg) 
 *Image showing the web-based chatbot interface.*
 
-![Terminal Chatbot](D:\\solutyics.chatbot\\company-ai-chatbot\\response 2.jpeg)  
+![Terminal Chatbot](response_2.jpeg)
 *Image showing the web-based chatbot interface.*
 
 ---
@@ -69,7 +69,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 
 ## **🛠️ Project Structure**  
 ```
-📂 solutyics-chatbot
+📂 company-chatbot
  ├── app.py           # Flask-based web chatbot
  ├── chatbot.py       # Terminal-based chatbot
  ├── templates/
@@ -104,14 +104,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 ---
 
 ## **🤝 Contributing**  
-Feel free to open an issue or submit a pull request if you want to improve the chatbot.  
-
----
-
-## **📧 Contact**  
-For any queries, reach out to **Solutyics** at:  
-📧 Email: hrsolutyics@gmail.com  
-🔗 LinkedIn: [Solutyics](https://www.linkedin.com/company/solutyics/)  
+Feel free to open an issue or submit a pull request if you want to improve the chatbot.    
 
 ---
 
