@@ -26,20 +26,20 @@ Company AI Chatbot is a **Retrieval-Augmented Generation (RAG) based chatbot** d
 
 ---
 
-## ** Installation & Setup**  
+##  Installation & Setup
 
-### **1️⃣ Clone the Repository**  
+### 1️⃣Clone the Repository
 ```bash
 git clone https://github.com/sohail945/company-ai-chatbot.git
 ```
 
-### **2️⃣ Install Dependencies**  
+### 2️⃣ Install Dependencies 
 First, install the required Python packages using:  
 ```bash
 pip install -r requirements.txt
 ```
 
-### **3️⃣ Set Up Environment Variables**  
+### 3️⃣ Set Up Environment Variables
 Create a `.env` file in the project directory and add your **Groq API key**:  
 ```env
 GROQ_API_KEY=your_groq_api_key_here
@@ -47,9 +47,9 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ---
 
-## ** Running the Chatbot**  
+##  Running the Chatbot
 
-### **Web-Based Chatbot (Flask App)**  
+### Web-Based Chatbot (Flask App) 
 To run the chatbot on a web interface, execute:  
 ```bash
 python app.py
@@ -58,7 +58,7 @@ Then, open **http://127.0.0.1:5000/** in your browser to chat with the bot.
 
 ---
 
-### **Terminal-Based Chatbot (CLI Mode)**  
+### Terminal-Based Chatbot (CLI Mode) 
 If you want to interact with the chatbot in the terminal, run:  
 ```bash
 python chatbot.py
@@ -67,7 +67,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 
 ---
 
-## **🛠️ Project Structure**  
+## 🛠️ Project Structure
 ```
 📂 company-chatbot
  ├── app.py           # Flask-based web chatbot
@@ -86,7 +86,7 @@ The chatbot will start, and you can ask questions directly in the terminal.
 
 ---
 
-## ** Technologies Used**  
+##  Technologies Used 
 🔹 **Flask** - For web-based chatbot  
 🔹 **FAISS** - Fast nearest neighbor search  
 🔹 **LangChain** - For retrieval-augmented generation  
@@ -96,14 +96,14 @@ The chatbot will start, and you can ask questions directly in the terminal.
 
 ---
 
-## ** Notes**  
+##  Notes  
 - Ensure you have **Python 3.8+** installed.  
 - The **FAISS index** (`faiss_index`) should be in the `embeddings/` folder.  
 - Make sure `.env` is properly configured before running the chatbot.  
 
 ---
 
-## ** Contributing**  
+##  Contributing
 Feel free to open an issue or submit a pull request if you want to improve the chatbot.    
 
 ---
