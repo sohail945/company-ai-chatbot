@@ -11,7 +11,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # ✅ Debugging - Check if API Key is Loaded
 if not GROQ_API_KEY:
-    print("❌ ERROR: GROQ_API_KEY is missing! Check your .env file.")
+    print("ERROR: GROQ_API_KEY is missing! Check your .env file.")
     exit()
 
 print("🚀 API Key Loaded Successfully!")
@@ -20,10 +20,10 @@ print("🚀 API Key Loaded Successfully!")
 embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large-instruct")  
 
 try:
-    db = FAISS.load_local("D:\\solutyics.chatbot\\embeddings\\faiss_index", embeddings, allow_dangerous_deserialization=True)
-    print("✅ FAISS Index Loaded Successfully!")
+    db = FAISS.load_local("D:\\solutyics.chatbot\\company-ai-chatbot\\embeddings\\faiss_index", embeddings, allow_dangerous_deserialization=True)
+    print("FAISS Index Loaded Successfully!")
 except Exception as e:
-    print(f"❌ ERROR: Failed to load FAISS index: {e}")
+    print(f" ERROR: Failed to load FAISS index: {e}")
     exit()
 
 # ✅ Increase Retrieval `k` for better accuracy
@@ -45,17 +45,17 @@ Answer:
 # Initialize LLM (Groq LLaMA 70B)
 try:
     llm = ChatGroq(temperature=0.3, model_name="llama3-70b-8192", api_key=GROQ_API_KEY)
-    print("✅ Groq LLM Initialized Successfully!")
+    print("Groq LLM Initialized Successfully!")
 except Exception as e:
-    print(f"❌ ERROR: Failed to initialize LLM: {e}")
+    print(f" ERROR: Failed to initialize LLM: {e}")
     exit()
 
 # Create Retrieval-QA Chain
 try:
     qa_chain = RetrievalQA.from_chain_type(llm, retriever=retriever, return_source_documents=True)
-    print("✅ Retrieval-QA Chain Created!")
+    print(" Retrieval-QA Chain Created!")
 except Exception as e:
-    print(f"❌ ERROR: Failed to create QA Chain: {e}")
+    print(f" ERROR: Failed to create QA Chain: {e}")
     exit()
 
 # ✅ Function to Refine Answers
@@ -77,14 +77,14 @@ def refine_answer(query, answer):
 
     if "how can apply" in query_lower or "how can apply for job?" in query_lower or "apply?" in query_lower:
         return """You can apply for jobs at Solutyics through:
-        🔗 LinkedIn: [Solutyics Job Posts](https://www.linkedin.com/company/solutyics/posts/?feedView=all)
-        📧 Email: hrsolutyics@gmail.com
+         LinkedIn: [Solutyics Job Posts](https://www.linkedin.com/company/solutyics/posts/?feedView=all)
+         Email: hrsolutyics@gmail.com
         """
 
     if "internship available?" in query_lower:
         return """Yes, Solutyics offers internships in AI research and software engineering.
-        🔗 Apply here: [Solutyics Job Posts](https://www.linkedin.com/company/solutyics/posts/?feedView=all)
-        📧 Email: hrsolutyics@gmail.com
+         Apply here: [Solutyics Job Posts](https://www.linkedin.com/company/solutyics/posts/?feedView=all)
+         Email: hrsolutyics@gmail.com
         """
 
     # 🔹 Ensure answer is concise

@@ -2,7 +2,7 @@ import os
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 # Define folder where text files are stored
-DATA_FOLDER = "D:\\solutyics.chatbot\\data"
+DATA_FOLDER = "D:\\solutyics.chatbot\\company-ai-chatbot\\data"
 
 def process_text_files():
     text_splitter = RecursiveCharacterTextSplitter(

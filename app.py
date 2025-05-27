@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 # Load FAISS index
 embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large-instruct")
-db = FAISS.load_local("D:\\solutyics.chatbot\\embeddings\\faiss_index", embeddings, allow_dangerous_deserialization=True)
+db = FAISS.load_local("D:\\solutyics.chatbot\\company-ai-chatbot\\embeddings\\faiss_index", embeddings, allow_dangerous_deserialization=True)
 retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
 # Initialize LLM
