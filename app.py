@@ -46,8 +46,8 @@ def format_response(response_text):
     """Formats the response to look structured and professional."""
     
     # Convert numbered lists into bullet points with proper spacing
-    response_text = response_text.replace("1.", "\n\n✅ ").replace("2.", "\n✅ ").replace("3.", "\n✅ ")
-    response_text = response_text.replace("4.", "\n✅ ").replace("5.", "\n✅ ").replace("6.", "\n✅ ")
+    response_text = response_text.replace("1.", "\n\n ").replace("2.", "\n ").replace("3.", "\n ")
+    response_text = response_text.replace("4.", "\n ").replace("5.", "\n ").replace("6.", "\n ")
     
     # Capitalize first letter if missing
     response_text = response_text.strip()

@@ -9,12 +9,12 @@ from langchain.chains import RetrievalQA
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-# ✅ Debugging - Check if API Key is Loaded
+#  Debugging - Check if API Key is Loaded
 if not GROQ_API_KEY:
     print("ERROR: GROQ_API_KEY is missing! Check your .env file.")
     exit()
 
-print("🚀 API Key Loaded Successfully!")
+print(" API Key Loaded Successfully!")
 
 # Load FAISS index (Allow deserialization)
 embeddings = HuggingFaceEmbeddings(model_name="intfloat/multilingual-e5-large-instruct")  
@@ -26,10 +26,10 @@ except Exception as e:
     print(f" ERROR: Failed to load FAISS index: {e}")
     exit()
 
-# ✅ Increase Retrieval `k` for better accuracy
+#  Increase Retrieval `k` for better accuracy
 retriever = db.as_retriever(search_type="similarity", search_kwargs={"k": 5})
 
-# ✅ Improved Prompt for Clearer Responses
+#  Improved Prompt for Clearer Responses
 qa_prompt = """
 You are an AI assistant for Solutyics. Answer questions **accurately and concisely** using the provided context.
 - If the context **does not mention** the answer, **do not guess**. Instead, respond: "I don't know."
@@ -58,7 +58,7 @@ except Exception as e:
     print(f" ERROR: Failed to create QA Chain: {e}")
     exit()
 
-# ✅ Function to Refine Answers
+#  Function to Refine Answers
 def refine_answer(query, answer):
     query_lower = query.lower()
 
@@ -94,15 +94,15 @@ def refine_answer(query, answer):
     return answer
 
 
-# ✅ Chatbot Function
+#  Chatbot Function
 def chatbot():
-    print("\n🤖 **Welcome to Solutyics AI Chatbot!** Ask anything about jobs or company info.")
+    print("\n **Welcome to Solutyics AI Chatbot!** Ask anything about jobs or company info.")
     print("Type 'exit' to quit.\n")
 
     while True:
         query = input("🗣️ You: ")
         if query.lower() in ["exit", "quit"]:
-            print("👋 Exiting chatbot. Have a great day!")
+            print(" Exiting chatbot. Have a great day!")
             break
 
         try:
@@ -122,9 +122,9 @@ def chatbot():
             print(f"🤖 Bot: {answer}\n")
 
         except Exception as e:
-            print("❌ Bot: Sorry, something went wrong. Please try again later.")
+            print(" Bot: Sorry, something went wrong. Please try again later.")
 
-# ✅ Run Chatbot
+#  Run Chatbot
 if __name__ == "__main__":
-    print("✅ Chatbot Script Started!")
+    print(" Chatbot Script Started!")
     chatbot()
